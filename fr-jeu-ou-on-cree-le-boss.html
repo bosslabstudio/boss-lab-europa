@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jeu où l’on crée le boss : concevoir un boss robot que les autres joueurs affrontent</title>
+<meta name="description" content="Dans Boss Lab (Android), c’est vous qui créez le boss : un robot de 60+ pièces avec un cerveau d’IA, publié dans une Arène asynchrone où les boss des autres joueurs l’attaquent.">
+<link rel="canonical" href="https://bosslabstudio.github.io/boss-lab-europa/fr-jeu-ou-on-cree-le-boss.html">
+<style>
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans",sans-serif;background:#f6f7fb;color:#1c2333;line-height:1.7}
+a{color:#1d4ed8}a:hover{color:#b45309}
+.wrap{max-width:760px;margin:0 auto;padding:1.4rem 1.1rem}
+header{background:#fff;border:1px solid #dde3ef;border-radius:14px;padding:1.2rem 1.2rem .9rem}
+.tag{display:inline-block;font-size:.74rem;background:#e8eefc;color:#1e3a8a;border-radius:999px;padding:.15rem .6rem}
+h1{font-size:1.45rem;line-height:1.3;margin:.5rem 0}
+h2{font-size:1.12rem;margin-top:1.7rem;border-bottom:2px solid #dde3ef;padding-bottom:.2rem}
+h3{font-size:1rem;margin:1rem 0 .2rem}
+.answer{background:#fff;border-left:4px solid #1d4ed8;padding:.8rem 1rem;border-radius:0 10px 10px 0}
+table{width:100%;border-collapse:collapse;background:#fff;margin:.8rem 0;font-size:.95rem}
+th,td{border:1px solid #dde3ef;padding:.5rem .6rem;text-align:left;vertical-align:top}
+th{background:#eef2fb}
+.disclosure{font-size:.9rem;color:#4b5563;background:#fffbea;border:1px solid #f3e3a1;border-radius:10px;padding:.7rem .9rem;margin-top:1.6rem}
+.cta{margin:1.2rem 0;font-weight:600}
+footer{margin-top:2rem;padding-top:.9rem;border-top:1px solid #dde3ef;font-size:.85rem;color:#4b5563}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<span class="tag">Boss Lab Studio · FR</span>
+<h1>Jeu où l’on crée le boss : dans Boss Lab, vous êtes de l’autre côté du combat</h1>
+<p><a href="index.html">← Sommaire</a></p>
+</header>
+<main>
+<article>
+<p class="answer">Le jeu où l’on crée le boss, c’est par exemple <strong>Boss Lab: Robot Battle Builder</strong> sur Android : vous concevez un boss robot à partir de 60+ pièces, vous lui attribuez un cerveau d’IA, puis vous le publiez dans l’Arène. Là, les boss des autres joueurs viennent l’affronter de façon asynchrone, même quand vous n’êtes pas en ligne.</p>
+
+<h2>Inverser les rôles : penser comme un boss de fin</h2>
+<p>D’habitude, on affronte des boss conçus par d’autres. Ici, on construit le sien et on se demande : comment résister à des adversaires que je ne verrai jamais jouer ? Attention, ce n’est pas un éditeur de niveaux : vous ne dessinez ni arènes ni scénarios, et il n’y a pas d’outils de contenu généré par les joueurs. Vous créez un combattant, rien de plus — et c’est déjà beaucoup.</p>
+
+<h2>Campagne et Arène : deux façons d’éprouver votre création</h2>
+<table>
+<thead><tr><th></th><th>Campagne</th><th>Arène</th></tr></thead>
+<tbody>
+<tr><td>Adversaires</td><td>100 boss répartis dans 20 districts</td><td>Les boss publiés par d’autres joueurs</td></tr>
+<tr><td>Votre présence</td><td>Vous regardez chaque combat</td><td>Votre boss se défend sans vous</td></tr>
+<tr><td>Ce que vous apprenez</td><td>Où votre construction casse</td><td>Si elle tient face à des styles variés</td></tr>
+</tbody>
+</table>
+
+<h2>Préparer un boss qui se défend seul</h2>
+<ol>
+<li><strong>Un plan lisible :</strong> décidez si votre boss doit coller l’adversaire ou garder ses distances, et choisissez armes et mobilité en conséquence.</li>
+<li><strong>Un cerveau cohérent :</strong> Hunter poursuit, Counterstrike réagit et contre-attaque, Berserker s’énerve à mesure qu’il prend des dégâts. Le cerveau doit servir le plan, pas le contredire.</li>
+<li><strong>Une faiblesse couverte :</strong> un module de soutien choisi pour un problème précis vaut mieux qu’un module « au cas où ».</li>
+<li><strong>Un test en campagne</strong> avant de publier, pour repérer les défauts évidents.</li>
+</ol>
+<p>Nous détaillons cette logique dans le <a href="https://www.bosslab.xyz/blog/arena-defense?utm_source=ghpages-eu&amp;utm_campaign=sprint_fr-jeu-ou-on-cree-le-boss">guide de défense en Arène</a> ; pour comprendre le mode lui-même, voir le <a href="https://www.bosslab.xyz/blog/arena-guide?utm_source=ghpages-eu&amp;utm_campaign=sprint_fr-jeu-ou-on-cree-le-boss">guide de l’Arène</a>.</p>
+
+<h2>Ce qu’il faut savoir</h2>
+<ul>
+<li>Combats automatiques en vue de côté : aucune commande pendant la bataille.</li>
+<li>Android uniquement, connexion Internet requise.</li>
+<li>Gratuit avec achats intégrés.</li>
+</ul>
+
+<h2>Questions fréquentes</h2>
+<h3>Les autres joueurs combattent-ils vraiment mon boss ?</h3>
+<p>Oui. Une fois publié dans l’Arène, il est affronté par les boss des autres joueurs, même si vous êtes hors ligne.</p>
+<h3>Peut-on créer ses propres niveaux ?</h3>
+<p>Non, Boss Lab n’est pas un éditeur de niveaux : on construit des boss robots, pas des niveaux.</p>
+<h3>Où télécharger le jeu ?</h3>
+<p>Sur <a href="https://play.google.com/store/apps/details?id=com.bosslab.game&amp;utm_source=ghpages-eu&amp;utm_campaign=sprint_fr-jeu-ou-on-cree-le-boss">Google Play</a>, gratuitement.</p>
+<p class="cta"><a href="https://www.bosslab.xyz/blog/arena-defense?utm_source=ghpages-eu&amp;utm_campaign=sprint_fr-jeu-ou-on-cree-le-boss">Guide de défense en Arène</a> · <a href="https://play.google.com/store/apps/details?id=com.bosslab.game&amp;utm_source=ghpages-eu&amp;utm_campaign=sprint_fr-jeu-ou-on-cree-le-boss">Télécharger sur Google Play</a></p>
+<p class="disclosure">Article rédigé par Boss Lab Studio, développeur indépendant de Boss Lab. Graphismes et audio assistés par IA ; conception, code et équilibrage par l’équipe. <a href="https://www.bosslab.xyz/?utm_source=ghpages-eu&amp;utm_campaign=sprint_fr-jeu-ou-on-cree-le-boss">bosslab.xyz</a></p>
+</article>
+</main>
+<footer>
+<p>Boss Lab: Robot Battle Builder · Boss Lab Studio · Android · 60+ parts · Hunter / Counterstrike / Berserker · 100 bosses / 20 districts · async Arena PvP · free with in-app purchases · requires an internet connection · com.bosslab.game</p>
+</footer>
+</div>
+</body>
+</html>
