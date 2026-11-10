@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bosslabstudio.github.io/boss-lab-europa/sitemap.xml
